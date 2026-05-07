@@ -1,0 +1,80 @@
+/* Corpo do site*/
+body {
+    font-family: Arial, Helvetica, sans-serif; /*da pra mudar essas fontes e todas as outras cores do site dps*/
+    background-color: #f4f8fb;/*cor de fundo*/
+    color: #333;/*cor do texto*/
+    padding: 20px;/*espaçamento interno*/
+}
+
+/*Títulos*/
+h1 {
+    color: #006666;
+    text-align: center; /*alinhamento do título*/
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #004d4d;
+    margin-top: 25px; 
+}
+
+h3 {
+    color: #007777;
+    margin-top: 20px;
+}
+
+h4, h5 {
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Parágrafos*/
+p {
+    margin: 10px 0; /*cria espaço em cima e embaixo dos textos pra nn ficar tudo grudado :)*/
+}
+
+/*Listas*/
+ul, ol {
+    margin-left: 20px; /*empurra a lista pra direita*/
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Tabelas */
+table {
+    width: 100%; /*pra tabela ocupar tudo*/
+    border-collapse: collapse; /*junta as bordas pra ficar mais bonitito*/
+    margin: 15px 0;
+    background-color: white;
+}
+
+th {
+    background-color: #009999;
+    color: white;
+    padding: 8px; /*espaço dentro das células do cabeçalho*/
+} /*estilização o cabeçalho*/
+
+td {
+    padding: 8px; /*espaço dentro das células*/
+    border: 1px solid #ccc;
+} /*estilização das células*/
+
+/* Imagens */
+img {
+    display: block; /*faz a imagem ser um bloco pra poder centralizar*/
+    max-width: 100%; /*pra imagem nn ultrapassar a tela*/
+    margin: 15px auto; /*centralizar a dita cuja*/
+}
+
+/* Links*/
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+} /*pra quando passar o mouse ficar sublinhado, bonito e charmoso*/
